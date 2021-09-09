@@ -12,16 +12,12 @@ const assert = chai.assert;
 
 describe('Factorial', function() {
 
-    it('factorial should return correct value', function() {
-        const mathsService = new Factorial();
-        assert.equal(mathsService.factorial(-99),-1);
-
-    });
-    it('factorial should return correct value', function() {
+    /*it('factorial should return correct value', function() {
         const mathsService = new Factorial();
         assert.equal(mathsService.factorial(1),1);
         assert.equal(mathsService.factorial(0),1);
-    });
+    });*/
+    
     it('factorial should return correct value', function() {
         const mathsService = new Factorial();
         assert.equal(mathsService.factorial(4),24);
